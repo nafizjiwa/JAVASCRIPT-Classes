@@ -28,7 +28,7 @@
   
   ####  // THIS IS NOT ALLOWED
   
-        const tyson = new Animal('Tyson');
+        const tyson = new Animal('Tyson');            //creating an instance
           tyson.generateName();
   
 
