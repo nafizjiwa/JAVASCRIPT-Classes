@@ -34,11 +34,11 @@
            }
          }
   
-  #### // THIS IS ALLOWED, called on the CLASS Animal
+  #### // THIS IS ALLOWED, generateName called on the CLASS Animal
 
             console.log(Animal.generateName());
   
-  ####  // THIS IS NOT ALLOWED called on the INSTANCE tyson
+  ####  // THIS IS NOT ALLOWED, generateName called on the INSTANCE tyson
   
         const tyson = new Animal('Tyson');            //creating an instance use the new keyword
           tyson.generateName();
