@@ -22,12 +22,14 @@
           }
         }
   
-        console.log(Animal.generateName());
-  
   #### // THIS IS ALLOWED
+
+            console.log(Animal.generateName());
+  
+  ####  // THIS IS NOT ALLOWED
   
         const tyson = new Animal('Tyson');
           tyson.generateName();
   
-  ####  // THIS IS NOT ALLOWED
+
 
