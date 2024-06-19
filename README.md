@@ -40,7 +40,7 @@
   
   ####  // THIS IS NOT ALLOWED called on the INSTANCE tyson
   
-        const tyson = new Animal('Tyson');            //creating an instance
+        const tyson = new Animal('Tyson');            //creating an instance use the new keyword
           tyson.generateName();
   
 
