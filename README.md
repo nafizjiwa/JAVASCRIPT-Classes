@@ -9,8 +9,8 @@
   |KEYWORD|DESCRIPTION|
   |----|----|
   |'extends'|To create a child sub class that extends a parents |
-  |'super'| A child class constructor calls the parent class constructor using the super() method. a child class calls the constructor() of a parent class|
-  |`Static`| defines a static method for a class|
+  |`SUPER`| A child class constructor calls the parent class constructor using the super() method. a child class calls the constructor() of a parent class|
+  |`STATIC`| defines a static method for a class|
 
 ##### The METHOD is CALLED ON THE CLASS NOT on AN INSTANCES of the class.<br>
 
