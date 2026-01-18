@@ -1,7 +1,7 @@
 # JAVASCRIPT CLASSES
 
 
-#### Classes are templates for objects.<br>
+#### Classes are templates to create objects.<br>
 - JavaScript calls a constructor method when we create a new instance of a class.<br>
          constructor() {                }
 - INHERITANCE is when properties and methods of a parent class extend to child classes.<br>
