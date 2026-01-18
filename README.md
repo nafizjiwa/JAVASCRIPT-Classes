@@ -1,18 +1,17 @@
 # JAVASCRIPT CLASSES
 
-
-#### Classes are templates to create objects.<br>
-- JavaScript calls a constructor method when we create a new instance of a class.<br>
-         constructor() {                }
-- INHERITANCE is when properties and methods of a parent class extend to child classes.<br>
+##### Classes are templates to create objects.<br>
+#### INHERITANCE
+- When parent class properties and methods extend to child classes.<br>
   <br>
   |KEYWORD|DESCRIPTION|
   |----|----|
   |`EXTENDS`|To create a child sub class that extends a parents |
-  |`SUPER`| A child class constructor calls the parent class constructor using the super() method|
+  |`SUPER()`| Used so a child class calls the parent class constructor when it adds properties|
   |`STATIC`| defines a static method for a class|
 
 ##### The METHOD is CALLED ON THE CLASS NOT on AN INSTANCES of the class.<br>
+- JavaScript calls a constructor method when we create a new instance of a class (see below).<br>
 
          class Animal {
           constructor(name) {
@@ -40,7 +39,7 @@
   
   ####  // THIS IS NOT ALLOWED, generateName called on the INSTANCE tyson
   
-        const tyson = new Animal('Tyson');            //creating an instance use the new keyword
+        const tyson = new Animal('Tyson');      //creating an instance use the new keyword which call constructor
           tyson.generateName();
   
 
